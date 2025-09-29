@@ -13,12 +13,12 @@ dynamic_navbar.innerHTML = `
       <!-- Desktop Nav -->
       <div class="md:flex hidden items-center gap-10">
         <div class="md:flex items-center gap-10 hidden">
-          <ul class="md:flex hidden items-center text-zinc-800 font-medium uppercase gap-6">
-            <li><a href="/index.html" class="hover:text-[#0165a1] transition-all duration-300">Home</a></li>
-            <li><a href="/about.html" class="hover:text-[#0165a1] transition-all duration-300">About</a></li>
-            <li><a href="/services.html" class="hover:text-[#0165a1] transition-all duration-300">Services</a></li>
-            <li><a href="/location.html" class="hover:text-[#0165a1] transition-all duration-300">Location</a></li>
-            <li><a href="/gallery.html" class="hover:text-[#0165a1] transition-all duration-300">Gallery</a></li>
+          <ul class="md:flex hidden items-center text-zinc-800 font-medium  gap-6">
+            <li><a href="/index.html" class="hover:text-[#0165a1] transition-all duration-300">Startseite</a></li>
+            <li><a href="/about.html" class="hover:text-[#0165a1] transition-all duration-300">Über</a></li>
+            <li><a href="/services.html" class="hover:text-[#0165a1] transition-all duration-300">Dienstleistungen</a></li>
+            <li><a href="/location.html" class="hover:text-[#0165a1] transition-all duration-300">Standort</a></li>
+            <li><a href="/gallery.html" class="hover:text-[#0165a1] transition-all duration-300">Galerie</a></li>
           </ul>
         </div>
       </div>
@@ -26,8 +26,8 @@ dynamic_navbar.innerHTML = `
       <!-- Desktop CTA -->
       <div class="md:flex items-center justify-center gap-4 hidden">
         <a href="/contact.html"
-          class="md:block hidden transition-all duration-300 hover:opacity-85 px-10 py-2.5 uppercase rounded-lg text-nowrap text-white border-2 border-[#0165a1] bg-[#0165a1]">
-          Contact Us
+          class="md:block hidden transition-all duration-300 hover:opacity-85 px-10 py-2.5  rounded-lg text-nowrap text-white border-2 border-[#0165a1] bg-[#0165a1]">
+          Kontakt
         </a>
       </div>
 
@@ -45,17 +45,17 @@ dynamic_navbar.innerHTML = `
     </div>
 
     <div class="p-6">
-      <ul class="flex relative z-50 text-zinc-800 font-medium uppercase flex-col gap-7">
-        <li><a href="/index.html" class="mobileMenuCloseBtn hover:text-[#0165a1] transition-all duration-300">Home</a></li>
-        <li><a href="/about.html" class="mobileMenuCloseBtn hover:text-[#0165a1] transition-all duration-300">About</a></li>
-        <li><a href="/services.html" class="mobileMenuCloseBtn hover:text-[#0165a1] transition-all duration-300">Services</a></li>
-        <li><a href="/location.html" class="mobileMenuCloseBtn hover:text-[#0165a1] transition-all duration-300">Locations</a></li>
-        <li><a href="/gallery.html" class="mobileMenuCloseBtn hover:text-[#0165a1] transition-all duration-300">Gallery</a></li>
+      <ul class="flex relative z-50 text-zinc-800 font-medium  flex-col gap-7">
+        <li><a href="/index.html" class="mobileMenuCloseBtn hover:text-[#0165a1] transition-all duration-300">Startseite</a></li>
+        <li><a href="/about.html" class="mobileMenuCloseBtn hover:text-[#0165a1] transition-all duration-300">Über</a></li>
+        <li><a href="/services.html" class="mobileMenuCloseBtn hover:text-[#0165a1] transition-all duration-300">Dienstleistungen</a></li>
+        <li><a href="/location.html" class="mobileMenuCloseBtn hover:text-[#0165a1] transition-all duration-300">Standorts</a></li>
+        <li><a href="/gallery.html" class="mobileMenuCloseBtn hover:text-[#0165a1] transition-all duration-300">Galerie</a></li>
       </ul>
 
       <a href="/contact.html"
-        class="block text-nowrap transition-all duration-300 hover:opacity-85 px-6 py-3 uppercase rounded-lg text-white border-2 border-[#0165a1] bg-[#0165a1] text-center mt-3 mobileMenuCloseBtn">
-        Contact Us
+        class="block text-nowrap transition-all duration-300 hover:opacity-85 px-6 py-3  rounded-lg text-white border-2 border-[#0165a1] bg-[#0165a1] text-center mt-3 mobileMenuCloseBtn">
+        Kontakt
       </a>
     </div>
   </div>
