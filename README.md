@@ -9,27 +9,6 @@ Schneller 24/7-Notdienst für Abfluss-, Rohr- & Kanalreinigung. Dieses Repo enth
 - **Slider**: Swiper (for counters/metrics)
 - **No build step nötig** – reine statische Dateien
 
-## Ordnerstruktur (Empfehlung)
-/assets
-/favicons
-/logo.svg
-/images
-rohrreinigung-hero.jpg
-inspektion-kamera.jpg
-service-fahrzeug.jpg
-/docs
-Style.css
-index.html
-services.html
-standorte.html
-galerie.html
-kontakt.html
-ueber-uns.html
-impressum.html
-datenschutz.html
-sitemap.xml
-robots.txt
-
 
 
 
